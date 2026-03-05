@@ -7,7 +7,7 @@ const TaskStatus = ({ tasks, handleComplete }) => {
       <h2 className="font-bold mb-4">Task Status</h2>
 
       {tasks.map(task => (
-        <div key={task.id} className="bg-white p-3 rounded shadow mb-3">
+        <div key={task.id} className=" p-3 rounded shadow mb-3">
 
           <p className="text-sm font-medium">
             {task.title}
@@ -15,7 +15,7 @@ const TaskStatus = ({ tasks, handleComplete }) => {
 
           <button
             onClick={() => handleComplete(task)}
-            className="bg-green-600 text-white w-full mt-2 py-1 rounded"
+            className="bg-green-600  w-full mt-2 py-1 rounded"
           >
             Complete
           </button>

@@ -5,7 +5,7 @@ const TicketCard = ({ ticket, handleAddTask }) => {
   return (
     <div
       onClick={() => handleAddTask(ticket)}
-      className="bg-white p-4 rounded-lg shadow cursor-pointer hover:shadow-lg"
+      className=" p-4 rounded-lg shadow cursor-pointer hover:shadow-lg"
     >
 
       <div className="flex justify-between">

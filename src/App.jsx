@@ -7,6 +7,7 @@ import Banner from './components/Banner/Banner';
 import TicketCard from './components/Banner/TicketCard';
 import TaskStatus from './components/Banner/TaskStatus';
 import ResolvedTask from './components/Banner/ResolvedTask';
+import Swal from 'sweetalert2';
 
 function App() {
   const [tasks, setTasks] = useState([]);
@@ -14,14 +15,24 @@ function App() {
 
   const handleAddTask = (ticket) => {
 
-    alert("Ticket Added");
+    Swal.fire({
+      title: "Completed!",
+      text: "Ticket resolved successfully",
+      icon: "success",
+      confirmButtonText: "OK",
+    });
 
     setTasks([...tasks, ticket]);
   };
 
   const handleComplete = (task) => {
 
-    alert("Task Completed");
+    Swal.fire({
+      title: "Completed!",
+      text: "Task completed successfully",
+      icon: "success",
+      confirmButtonText: "OK",
+    });
 
     setTasks(tasks.filter(t => t.id !== task.id));
 

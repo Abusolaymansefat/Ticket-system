@@ -11,7 +11,7 @@ const ResolvedTask = ({ resolvedTasks }) => {
 
         <div
           key={task.id}
-          className="bg-blue-100 p-3 rounded mb-2"
+          className="bg-[#34485A] p-3 rounded mb-2"
         >
           {task.title}
         </div>
