@@ -1,0 +1,137 @@
+[
+  {
+    "id": 1,
+    "title": "Login Issue",
+    "description": "User unable to login to account",
+    "customer": "Rahim",
+    "priority": "High",
+    "status": "open",
+    "createdAt": "2026-03-01"
+  },
+  {
+    "id": 2,
+    "title": "Payment Failed",
+    "description": "Payment gateway showing error",
+    "customer": "Karim",
+    "priority": "Medium",
+    "status": "open",
+    "createdAt": "2026-03-02"
+  },
+  {
+    "id": 3,
+    "title": "Page Loading Slow",
+    "description": "Website takes long time to load",
+    "customer": "Jamal",
+    "priority": "Low",
+    "status": "open",
+    "createdAt": "2026-03-02"
+  },
+  {
+    "id": 4,
+    "title": "Signup Error",
+    "description": "Error occurs while creating new account",
+    "customer": "Hasan",
+    "priority": "High",
+    "status": "open",
+    "createdAt": "2026-03-03"
+  },
+  {
+    "id": 5,
+    "title": "Password Reset Issue",
+    "description": "User cannot reset password",
+    "customer": "Sadia",
+    "priority": "Medium",
+    "status": "open",
+    "createdAt": "2026-03-04"
+  },
+  {
+    "id": 6,
+    "title": "Dashboard Not Loading",
+    "description": "Dashboard page showing blank screen",
+    "customer": "Nayeem",
+    "priority": "High",
+    "status": "open",
+    "createdAt": "2026-03-05"
+  },
+  {
+    "id": 7,
+    "title": "Email Notification Error",
+    "description": "Users not receiving email notifications",
+    "customer": "Farhana",
+    "priority": "Medium",
+    "status": "open",
+    "createdAt": "2026-03-06"
+  },
+  {
+    "id": 8,
+    "title": "Profile Update Failed",
+    "description": "Error while updating profile information",
+    "customer": "Tanvir",
+    "priority": "Low",
+    "status": "open",
+    "createdAt": "2026-03-07"
+  },
+  {
+    "id": 9,
+    "title": "Search Feature Bug",
+    "description": "Search results not displaying correctly",
+    "customer": "Mim",
+    "priority": "Medium",
+    "status": "open",
+    "createdAt": "2026-03-08"
+  },
+  {
+    "id": 10,
+    "title": "Order History Missing",
+    "description": "User cannot see previous orders",
+    "customer": "Sakib",
+    "priority": "High",
+    "status": "open",
+    "createdAt": "2026-03-09"
+  },
+  {
+    "id": 11,
+    "title": "Image Upload Error",
+    "description": "Image upload fails on product page",
+    "customer": "Rifat",
+    "priority": "Medium",
+    "status": "open",
+    "createdAt": "2026-03-10"
+  },
+  {
+    "id": 12,
+    "title": "Mobile Layout Broken",
+    "description": "Website layout broken on mobile devices",
+    "customer": "Jannat",
+    "priority": "Low",
+    "status": "open",
+    "createdAt": "2026-03-11"
+  },
+  {
+    "id": 13,
+    "title": "API Data Not Fetching",
+    "description": "Frontend cannot fetch data from API",
+    "customer": "Arif",
+    "priority": "High",
+    "status": "open",
+    "createdAt": "2026-03-12"
+  },
+  {
+    "id": 14,
+    "title": "Cart Not Updating",
+    "description": "Cart quantity not updating properly",
+    "customer": "Nusrat",
+    "priority": "Medium",
+    "status": "open",
+    "createdAt": "2026-03-13"
+  },
+  {
+    "id": 15,
+    "title": "Logout Not Working",
+    "description": "User unable to logout from account",
+    "customer": "Rakib",
+    "priority": "High",
+    "status": "open",
+    "createdAt": "2026-03-14"
+  }
+]
