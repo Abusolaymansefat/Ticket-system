@@ -52,17 +52,17 @@ function App() {
           resolved={resolvedTasks.length}
         />
 
-        <div className="grid grid-cols-3 gap-6">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
 
           {/* Ticket Section */}
 
-          <div className="col-span-2">
+          <div className="lg:col-span-2">
 
             <h2 className="font-bold mb-4">
               Customer Tickets
             </h2>
 
-            <div className="grid grid-cols-2 gap-4">
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
 
               {tickets.map(ticket => (
                 <TicketCard
@@ -78,7 +78,7 @@ function App() {
 
           {/* Right Section */}
 
-          <div>
+          <div className="order-1 md:order-2">
 
             <TaskStatus
               tasks={tasks}
