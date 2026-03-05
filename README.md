@@ -1,16 +1,43 @@
-# React + Vite
+# React Basic Concepts
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+এই README-তে React-এর কিছু গুরুত্বপূর্ণ ধারণা বাংলায় সংক্ষেপে ব্যাখ্যা করা হয়েছে।  
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### What is JSX, and why is it used?  
+**Ans:**  
+React-এ ইউজার ইন্টারফেস (UI) তৈরি করার জন্য JSX ব্যবহার করা হয়।  
+আপনি যখন React-এ কোড লেখেন, তখন HTML এবং JavaScript আলাদা আলাদা ফাইলে না রেখে একই সাথে ব্যবহার করতে চান—JSX ঠিক সেই সুবিধাটিই দেয়।  
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### What is the difference between State and Props?  
+**Ans:**  
+- **Props** হলো "Read-only" বা শুধুমাত্র পড়ার যোগ্য ডেটা। এটি একটি প্যারেন্ট (Parent) কম্পোনেন্ট থেকে চাইল্ড (Child) কম্পোনেন্টে পাঠানো হয়।  
+- **State** হলো একটি কম্পোনেন্টের নিজস্ব মেমোরি। এটি কম্পোনেন্টের ভেতরেই তৈরি এবং পরিবর্তন করা হয়।  
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### What is the useState hook, and how does it work?  
+**Ans:**  
+- `useState` হলো React-এর একটি hook যা functional component-এর ভিতরে state create ও manage করতে ব্যবহার হয়।  
+- এটি একটি **state variable** এবং **state update function** রিটার্ন করে।  
+- State update করলে component **auto re-render** হয় নতুন value সহ।  
+
+---
+
+### How can you share state between components in React?  
+**Ans:**  
+- সাধারণত parent component-এর state **props** হিসেবে child component-এ পাঠানো হয়।  
+- বড় অ্যাপের জন্য **Context API** বা state management library (Redux, Zustand) ব্যবহার করা যায়।  
+- এর মাধ্যমে multiple components একই state access ও update করতে পারে।  
+
+---
+
+### How is event handling done in React?  
+**Ans:**  
+- React-এ event handler **camelCase syntax** ব্যবহার করে লেখা হয়, যেমন `onClick`, `onChange`।  
+- Function reference দিয়েই handler দেওয়া হয়, কল করতে হয় না।  
+- Inline function বা আলাদা function দুটোই ব্যবহার করা যায়।  
+
+---
