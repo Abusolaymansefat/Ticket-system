@@ -1,5 +1,6 @@
 import React from 'react';
 import img from '../../assets/logo-light.png'
+import { FaPlus } from 'react-icons/fa';
 
 const Navbar = () => {
         return (
@@ -34,7 +35,15 @@ const Navbar = () => {
                                 </ul>
                         </div>
                         <div className="navbar-end">
-                                <a className="btn bg-[#422AD5] hover:bg-[#7260eb] text-white">New Ticket</a>
+                                <button className="btn bg-[#422AD5] hover:bg-[#7260eb] text-white flex items-center gap-2">
+
+                                        <span className="bg-white text-[#422AD5] p-1 rounded-full">
+                                                <FaPlus size={12} />
+                                        </span>
+
+                                        New Ticket
+
+                                </button>
                         </div>
                 </div>
         );
