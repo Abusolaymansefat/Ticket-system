@@ -1,137 +1,110 @@
 [
   {
-    "id": 1,
-    "title": "Login Issue",
-    "description": "User unable to login to account",
-    "customer": "Rahim",
-    "priority": "High",
-    "status": "open",
-    "createdAt": "2026-03-01"
+    "id": "TIC-101",
+    "title": "Login Authentication Failure",
+    "description": "Users reporting 401 errors when attempting to log in with OAuth2 provider.",
+    "customer": "TechNova Corp",
+    "priority": "Critical",
+    "status": "In Progress",
+    "createdAt": "2026-03-01T08:30:00Z"
   },
   {
-    "id": 2,
-    "title": "Payment Failed",
-    "description": "Payment gateway showing error",
-    "customer": "Karim",
-    "priority": "Medium",
-    "status": "open",
-    "createdAt": "2026-03-02"
-  },
-  {
-    "id": 3,
-    "title": "Page Loading Slow",
-    "description": "Website takes long time to load",
-    "customer": "Jamal",
+    "id": "TIC-102",
+    "title": "Broken CSS on Dashboard",
+    "description": "The sidebar navigation overlaps with the main content on mobile views.",
+    "customer": "GreenLeaf Solutions",
     "priority": "Low",
-    "status": "open",
-    "createdAt": "2026-03-02"
+    "status": "Open",
+    "createdAt": "2026-03-01T09:15:00Z"
   },
   {
-    "id": 4,
-    "title": "Signup Error",
-    "description": "Error occurs while creating new account",
-    "customer": "Hasan",
+    "id": "TIC-103",
+    "title": "API Rate Limiting Issue",
+    "description": "Internal microservices are hitting rate limits unexpectedly during batch processing.",
+    "customer": "DataStream Inc",
     "priority": "High",
-    "status": "open",
-    "createdAt": "2026-03-03"
+    "status": "Resolved",
+    "createdAt": "2026-03-01T11:45:00Z"
   },
   {
-    "id": 5,
-    "title": "Password Reset Issue",
-    "description": "User cannot reset password",
-    "customer": "Sadia",
+    "id": "TIC-104",
+    "title": "Update Billing Address",
+    "description": "Customer needs to update their physical billing address for tax compliance.",
+    "customer": "BlueSky Logistics",
     "priority": "Medium",
-    "status": "open",
-    "createdAt": "2026-03-04"
+    "status": "Closed",
+    "createdAt": "2026-03-02T14:20:00Z"
   },
   {
-    "id": 6,
-    "title": "Dashboard Not Loading",
-    "description": "Dashboard page showing blank screen",
-    "customer": "Nayeem",
-    "priority": "High",
-    "status": "open",
-    "createdAt": "2026-03-05"
+    "id": "TIC-105",
+    "title": "Database Connection Timeout",
+    "description": "Production DB is timing out every 10 minutes during the cron job execution.",
+    "customer": "TechNova Corp",
+    "priority": "Critical",
+    "status": "In Progress",
+    "createdAt": "2026-03-02T16:05:00Z"
   },
   {
-    "id": 7,
-    "title": "Email Notification Error",
-    "description": "Users not receiving email notifications",
-    "customer": "Farhana",
-    "priority": "Medium",
-    "status": "open",
-    "createdAt": "2026-03-06"
-  },
-  {
-    "id": 8,
-    "title": "Profile Update Failed",
-    "description": "Error while updating profile information",
-    "customer": "Tanvir",
+    "id": "TIC-106",
+    "title": "Feature Request: Dark Mode",
+    "description": "User requested a dark mode toggle for the web application.",
+    "customer": "Summit Peak Ltd",
     "priority": "Low",
-    "status": "open",
-    "createdAt": "2026-03-07"
+    "status": "Open",
+    "createdAt": "2026-03-03T10:00:00Z"
   },
   {
-    "id": 9,
-    "title": "Search Feature Bug",
-    "description": "Search results not displaying correctly",
-    "customer": "Mim",
+    "id": "TIC-107",
+    "title": "PDF Export Error",
+    "description": "Exporting reports to PDF results in a 'File Not Found' error.",
+    "customer": "GreenLeaf Solutions",
     "priority": "Medium",
-    "status": "open",
-    "createdAt": "2026-03-08"
+    "status": "Open",
+    "createdAt": "2026-03-03T13:40:00Z"
   },
   {
-    "id": 10,
-    "title": "Order History Missing",
-    "description": "User cannot see previous orders",
-    "customer": "Sakib",
+    "id": "TIC-108",
+    "title": "Security Vulnerability Patch",
+    "description": "Urgent request to patch CVE-2026-1234 in the main gateway.",
+    "customer": "CyberArmor",
+    "priority": "Critical",
+    "status": "Open",
+    "createdAt": "2026-03-04T07:50:00Z"
+  },
+  {
+    "id": "TIC-109",
+    "title": "Slow Search Queries",
+    "description": "Searching for users by email takes over 5 seconds to return results.",
+    "customer": "DataStream Inc",
+    "priority": "Medium",
+    "status": "In Progress",
+    "createdAt": "2026-03-04T09:22:00Z"
+  },
+  {
+    "id": "TIC-110",
+    "title": "Welcome Email Not Sent",
+    "description": "New sign-ups from the last 2 hours have not received their verification links.",
+    "customer": "Solo Ventures",
     "priority": "High",
-    "status": "open",
-    "createdAt": "2026-03-09"
+    "status": "Resolved",
+    "createdAt": "2026-03-04T11:10:00Z"
   },
   {
-    "id": 11,
-    "title": "Image Upload Error",
-    "description": "Image upload fails on product page",
-    "customer": "Rifat",
+    "id": "TIC-111",
+    "title": "Password Reset Link Expired",
+    "description": "The password reset link expires in 2 minutes instead of the documented 30 minutes.",
+    "customer": "BlueSky Logistics",
     "priority": "Medium",
-    "status": "open",
-    "createdAt": "2026-03-10"
+    "status": "Open",
+    "createdAt": "2026-03-05T08:05:00Z"
   },
   {
-    "id": 12,
-    "title": "Mobile Layout Broken",
-    "description": "Website layout broken on mobile devices",
-    "customer": "Jannat",
+    "id": "TIC-112",
+    "title": "UI Text Typo",
+    "description": "The 'Submit' button on the contact page is misspelled as 'Submt'.",
+    "customer": "Summit Peak Ltd",
     "priority": "Low",
-    "status": "open",
-    "createdAt": "2026-03-11"
-  },
-  {
-    "id": 13,
-    "title": "API Data Not Fetching",
-    "description": "Frontend cannot fetch data from API",
-    "customer": "Arif",
-    "priority": "High",
-    "status": "open",
-    "createdAt": "2026-03-12"
-  },
-  {
-    "id": 14,
-    "title": "Cart Not Updating",
-    "description": "Cart quantity not updating properly",
-    "customer": "Nusrat",
-    "priority": "Medium",
-    "status": "open",
-    "createdAt": "2026-03-13"
-  },
-  {
-    "id": 15,
-    "title": "Logout Not Working",
-    "description": "User unable to logout from account",
-    "customer": "Rakib",
-    "priority": "High",
-    "status": "open",
-    "createdAt": "2026-03-14"
+    "status": "Closed",
+    "createdAt": "2026-03-05T15:30:00Z"
   }
 ]

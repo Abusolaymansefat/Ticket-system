@@ -1,6 +1,96 @@
-# React Basic Concepts
+# 🎫 Ticket Management System
 
-এই README-তে React-এর কিছু গুরুত্বপূর্ণ ধারণা বাংলায় সংক্ষেপে ব্যাখ্যা করা হয়েছে।  
+A responsive **Ticket Management Dashboard** built with **React.js and Tailwind CSS**.
+Users can view customer tickets, move them to **In-Progress**, and mark them as **Resolved**.
+
+---
+
+## 🚀 Live Demo
+
+🔗 Deploy Link: https://famous-kataifi-930635.netlify.app/
+
+---
+
+## 📌 Features
+
+* 📊 **Dashboard Banner**
+
+  * Shows **In-Progress Ticket Count**
+  * Shows **Resolved Ticket Count**
+
+* 🧾 **Customer Tickets Section**
+
+  * Displays all tickets in a **card layout**
+  * Responsive **2-column grid**
+
+* 📋 **Task Status Section**
+
+  * Clicking a ticket moves it to **Task Status**
+  * Shows ticket title and **Complete Button**
+
+* ✅ **Resolved Task Section**
+
+  * Clicking **Complete**:
+
+    * Removes ticket from Task Status
+    * Adds it to Resolved List
+    * Updates Banner counts
+
+* 🔔 **SweetAlert2 Notification**
+
+  * Alerts when ticket is added or completed
+
+* 📱 **Fully Responsive**
+
+  * Mobile
+  * Tablet
+  * Desktop
+
+---
+
+## 🛠️ Technologies Used
+
+* React.js
+* Tailwind CSS
+* SweetAlert2
+* JavaScript (ES6)
+* Vite
+
+---
+
+
+## ⚙️ Installation
+
+Clone the repository
+
+```
+git clone https://github.com/Abusolaymansefat/Ticket-system
+```
+
+Go to the project folder
+
+```
+cd ticket-system
+```
+
+Install dependencies
+
+```
+npm install
+```
+
+Run the project
+
+```
+npm run dev
+```
+
+---
+
+
+
+
+# React Basic Concepts
 
 ---
 
