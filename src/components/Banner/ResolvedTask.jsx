@@ -4,7 +4,7 @@ const ResolvedTask = ({ resolvedTasks }) => {
 
   return (
     <div className="mt-6">
-
+      {/* // Resolved Task */}
       <h2 className="font-bold mb-4">Resolved Task</h2>
 
       {resolvedTasks.map(task => (
